@@ -1,0 +1,57 @@
+body{
+  margin: 40px;
+}
+
+h1{
+  text-align: center;
+}
+#container{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: table;
+  /*display: flex;
+  flex-wrap: wrap;*/
+}
+
+.grid{
+  background-color: lightblue;
+  width: 37.5px;
+  height: 37.5px;
+
+  border-width: 2px;
+  float: left;
+
+}
+
+ div{
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  border: 2px solid black;
+}
+
+.highlight{
+  background-color: red;
+}
+
+div:hover{
+  background-color: green;
+}
+
+#restart{
+  height: 48px;
+  width: 150px;
+  border-color: 0;
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10%;
+  margin:30px;
+  text-align: center;
+  padding-top: 10px;
+}
